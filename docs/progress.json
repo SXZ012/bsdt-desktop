@@ -77,27 +77,24 @@
   },
   "4.4": {
     "status": "已完成",
-    "note": "归档README、截图、排除规则和本地Git提交已准备；私有远程待创建"
+    "note": "GitHub私有源码归档及验证已完成；安装包已保存私有Release"
   },
-  "summary": "源码、截图与验证材料已整理并本地提交，20项后台和6项前端测试通过；GitHub私有上传尚未完成。",
-  "daily_stage": "私有GitHub归档准备",
-  "daily_task": "源码整理、敏感文件排除、README与截图归档及本地验证",
+  "summary": "源码及安装包已上传私有仓库，远程源码内容逐项校验通过；20项后台和6项前端测试通过。",
+  "daily_stage": "私有GitHub项目归档",
+  "daily_task": "源码、截图与验证资料归档，私有状态及远程文件校验",
   "github_backup": {
-    "status": "待创建私有仓库",
-    "uploaded": false,
-    "repository_url": null,
-    "required_visibility": "private",
-    "prepared_commit": "3bd34220c0c729000343facd08126d99d2c9eefb",
-    "excluded": [
-      "company original files",
-      "Teamshare-main",
-      "runtime databases and logs",
-      "dependencies and caches"
-    ],
+    "status": "源码及安装包已上传私有仓库",
+    "uploaded": true,
+    "repository_url": "https://github.com/SXZ012/bsdt-desktop",
+    "visibility_verified": "private",
+    "initial_remote_commit": "6949af3abb17aa6bde17f66375d925f5921d365e",
+    "installer_uploaded": true,
+    "release_url": "https://github.com/SXZ012/bsdt-desktop/releases/tag/v0.4.3",
     "checks": {
       "backend_tests_passed": 20,
       "frontend_tests_passed": 6,
-      "secret_pattern_hits": 0
+      "secret_pattern_hits": 0,
+      "remote_verified_files": 90
     }
   }
 }

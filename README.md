@@ -104,3 +104,6 @@ pnpm test
 本仓库仅整理桌面应用源码、人工构造的模拟样例、开发说明和精选截图。公司原始文档、第三方行业仓库、实际接收数据、SQLite、运行日志、密钥、依赖目录及构建缓存未纳入。
 
 项目原始资料和唯一任务进度表继续保存在原工作目录的 `file` 中，本仓库不创建或维护任务表副本。开发验证记录保留真实完成情况；未完成项不包装为已上线成果。
+## 私有归档
+
+源码已保存于 [SXZ012/bsdt-desktop](https://github.com/SXZ012/bsdt-desktop)，已核验为私有仓库。Windows演示安装包见 [私有Release v0.4.3](https://github.com/SXZ012/bsdt-desktop/releases/tag/v0.4.3)。归档验证见 [归档记录](docs/evidence/github-archive.json)。

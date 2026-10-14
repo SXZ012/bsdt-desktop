@@ -1,0 +1,18 @@
+{
+  "archive_date": "2026-10-14",
+  "repository": "SXZ012/bsdt-desktop",
+  "url": "https://github.com/SXZ012/bsdt-desktop",
+  "private": true,
+  "initial_verified_commit": "6949af3abb17aa6bde17f66375d925f5921d365e",
+  "initial_verified_files": 90,
+  "installer_uploaded": true,
+  "release_url": "https://github.com/SXZ012/bsdt-desktop/releases/tag/v0.4.3",
+  "installer_sha256": "5307ddc0b5f77305f0e425270bda3bf39ec3415f3a9b70becd3ba7d3bf312127",
+  "installer_error": null,
+  "excluded": [
+    "company original documents",
+    "Teamshare-main",
+    "runtime databases and logs",
+    "dependencies and caches"
+  ]
+}
