@@ -1,0 +1,50 @@
+{
+  "version": "0.4.3",
+  "data": "historical/simulated",
+  "desktop": {
+    "passed": true,
+    "configuredWorkspaceMs": 2471,
+    "checks": [
+      "installed version 0.4.3",
+      "light native workspace",
+      "six industry rows and five pages",
+      "clean client enters connection setup",
+      "native health test does not save",
+      "save validates and opens market",
+      "reload auto connects with saved configuration",
+      "existing research and stock detail",
+      "one service input without advanced addresses",
+      "duplicate instance retains one window",
+      "original local configuration restored after test"
+    ]
+  },
+  "ui": {
+    "passed": true,
+    "checks": [
+      "first use blank address and no automatic requests",
+      "invalid addresses rejected locally",
+      "unreachable service cannot be saved",
+      "test does not save",
+      "save rechecks service compatibility",
+      "verified address saves and opens market",
+      "relaunch uses saved configuration",
+      "settings has no LAN query or advanced controls",
+      "offline saved client keeps cached workspace",
+      "storage failure does not enter",
+      "invalid stored address returns to setup",
+      "narrow setup fits viewport",
+      "light theme colors",
+      "six industry rows",
+      "market metadata disclosure",
+      "industry sort and fixed compact table",
+      "stock selection and details",
+      "independent code column and ascending/descending sorting",
+      "report reading"
+    ]
+  },
+  "limitations": [
+    "Real upstream data not integrated",
+    "Cross-computer LAN validation pending",
+    "Three-person acceptance pending"
+  ]
+}

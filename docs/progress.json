@@ -1,0 +1,103 @@
+{
+  "1.1": {
+    "status": "已完成",
+    "note": "首版范围已确认，见开发目录 docs"
+  },
+  "1.2": {
+    "status": "已完成",
+    "note": "React、Electron、FastAPI已运行并完成桌面连接验证"
+  },
+  "1.3": {
+    "status": "已完成",
+    "note": "四类状态模拟数据，样例标识及数据日期明确展示"
+  },
+  "1.4": {
+    "status": "已完成",
+    "note": "0.4.2蓝灰导航、分区配色与紧凑证券研究布局已验证"
+  },
+  "1.5": {
+    "status": "已完成",
+    "note": "五页接口联调与断线恢复已通过"
+  },
+  "1.6": {
+    "status": "已完成",
+    "note": "SQLite模块版本存储；旧数据库迁移及备份已验证"
+  },
+  "2.1": {
+    "status": "已完成",
+    "note": "市场概况与独立日期紧凑展示；六行行业列表与分区色彩已验证"
+  },
+  "2.2": {
+    "status": "已完成",
+    "note": "行业表格统一紧凑布局，排序与详情阅读已验证"
+  },
+  "2.3": {
+    "status": "已完成",
+    "note": "证券代码独立列、代码升降序、紧凑查询工具栏及个股预览已验证"
+  },
+  "2.4": {
+    "status": "已完成",
+    "note": "首次连接、自动刷新与设置分组已验证；移除重复入口和密度选项"
+  },
+  "2.5": {
+    "status": "已完成",
+    "note": "模块独立JSON/CSV导入；可缺字段保持null并显示待补充"
+  },
+  "3.1": {
+    "status": "已完成",
+    "note": "变更检测跳过重复读取；日期和当日revision控制新旧"
+  },
+  "3.2": {
+    "status": "已完成",
+    "note": "各模块独立完整性、确认与SHA256门槛；异常不覆盖"
+  },
+  "3.3": {
+    "status": "已完成",
+    "note": "自动更新轻提示；保留研究位置，移除对象时提示"
+  },
+  "3.4": {
+    "status": "已完成",
+    "note": "模块缓存、断线、对象移除及后台真正重启恢复通过"
+  },
+  "3.5": {
+    "status": "进行中",
+    "note": "后台监听0.0.0.0:8765并保存日志；跨电脑待验证"
+  },
+  "4.1": {
+    "status": "已完成",
+    "note": "0.4.3安装包已生成，本机升级、控件简化及五页原生验证通过"
+  },
+  "4.2": {
+    "status": "未开始",
+    "note": "另一台电脑安装与局域网联调待配合"
+  },
+  "4.3": {
+    "status": "已完成",
+    "note": "首次配置、五页交互、代码排序、控件移除、窄窗口及原生验证通过"
+  },
+  "4.4": {
+    "status": "已完成",
+    "note": "归档README、截图、排除规则和本地Git提交已准备；私有远程待创建"
+  },
+  "summary": "源码、截图与验证材料已整理并本地提交，20项后台和6项前端测试通过；GitHub私有上传尚未完成。",
+  "daily_stage": "私有GitHub归档准备",
+  "daily_task": "源码整理、敏感文件排除、README与截图归档及本地验证",
+  "github_backup": {
+    "status": "待创建私有仓库",
+    "uploaded": false,
+    "repository_url": null,
+    "required_visibility": "private",
+    "prepared_commit": "3bd34220c0c729000343facd08126d99d2c9eefb",
+    "excluded": [
+      "company original files",
+      "Teamshare-main",
+      "runtime databases and logs",
+      "dependencies and caches"
+    ],
+    "checks": {
+      "backend_tests_passed": 20,
+      "frontend_tests_passed": 6,
+      "secret_pattern_hits": 0
+    }
+  }
+}

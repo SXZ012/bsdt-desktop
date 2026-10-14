@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo-20260928-pending",
+  "as_of": "2026-09-28",
+  "sample": true,
+  "source": "BSDT 模拟文件上传",
+  "complete": true,
+  "confirmed": false,
+  "confirmed_by": "",
+  "files": {
+    "market": {
+      "name": "market.json",
+      "sha256": "b783b9b5b13bc61ab47def200819e584888171c08653086311142b8e4dab994d"
+    },
+    "industries": {
+      "name": "industries.json",
+      "sha256": "e2070a008cded3a7a19d12dbc273fe2bf2f095c91658885b27cf469bff82b93d"
+    },
+    "stocks": {
+      "name": "stocks.json",
+      "sha256": "a23c152f0564af451d0dcfd2a7f15d7fc38e03cde5ff57c4ba20c2e23acf97b8"
+    },
+    "reports": {
+      "name": "reports.json",
+      "sha256": "532126e056e36352a642243eb90dcbcb68624d7ae8669f0ce471194544ba62a1"
+    }
+  }
+}
